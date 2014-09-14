@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="0dip"
+   		 android:orientation="vertical"
+   		 android:layout_weight="1" >
+        
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse du serveur" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+        
+        
+         <EditText
+        android:id="@+id/editText1"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:ems="10" >
+
+      	  <requestFocus />
+   		 </EditText>
+
+         <Button
+        android:id="@+id/testButton"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Tester" />
+        
+    </LinearLayout>
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresses favories" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+        
+        
+         <Button
+        android:id="@+id/fav1Button"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Favori 1" />
+
+
+         <ImageButton
+             android:id="@+id/favImageButton1"
+             android:layout_width="0dip"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:src="@drawable/ic_action_star" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+        
+        
+         <Button
+        android:id="@+id/fav2Button"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Favori 2" />
+
+
+         <ImageButton
+             android:id="@+id/favImageButton2"
+             android:layout_width="0dip"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:src="@drawable/ic_action_star" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+        
+        
+         <Button
+        android:id="@+id/fav3Button"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Favori 3" />
+
+
+         <ImageButton
+             android:id="@+id/favImageButton3"
+             android:layout_width="0dip"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:src="@drawable/ic_action_star" />
+        
+    </LinearLayout>
+        
+    </LinearLayout>
+    
+ 
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:text="Sauvegarder" />
+
+</LinearLayout>

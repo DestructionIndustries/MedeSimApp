@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    	<item 
+        android:id="@+id/load_slot0"
+        android:title="Vide"
+        android:orderInCategory="0"
+        
+        />
+	 <item 
+        android:id="@+id/load_slot1"
+        android:title="Vide"
+        android:orderInCategory="1"
+        
+        />
+	<item 
+        android:id="@+id/load_slot2"
+        android:title="Vide"
+        android:orderInCategory="2"
+        
+        />
+    <item 
+        android:id="@+id/load_slot3"
+        android:title="Vide"
+        android:orderInCategory="3"
+        />	    
+    
+
+</menu>

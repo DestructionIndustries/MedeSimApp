@@ -5,9 +5,23 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
+    <Button
+        android:id="@+id/lgButton"
+        style="buttonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top|bottom|center_vertical|center_horizontal|clip_vertical"
+        android:layout_margin="20dp"
+        android:layout_weight=".9"
+        android:text="Voir Points d&apos;Arrêt" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_weight=".5"
+        android:text="Commencer" />
 
 </LinearLayout>

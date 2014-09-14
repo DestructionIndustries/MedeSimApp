@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/save_slot1"
+        android:title="Emplacement 1"
+        android:orderInCategory="0"
+        
+        />
+	<item 
+        android:id="@+id/save_slot2"
+        android:title="Emplacement 2"
+        android:orderInCategory="1"
+        
+        />
+    <item 
+        android:id="@+id/save_slot3"
+        android:title="Emplacement 3"
+        android:orderInCategory="2"
+        />	    
+	    
+</menu>

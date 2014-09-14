@@ -2,6 +2,10 @@
 <resources>
 
     <string name="hello">Hello World, MainActivity!</string>
-    <string name="app_name">VideoLog</string>
+    <string name="app_name">MedeSimApp</string>
+    <string name="servurl">http://toolsdocs.fr/test.php</string>
+    <string name="show_log_button">Voir Points dArrêt</string>
+    <string name="horl_tag">1</string>
+    <string name="change_url"> Changer URL </string>
 
 </resources>
